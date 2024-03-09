@@ -1,0 +1,243 @@
+:root {
+    font-size: 14px;
+}
+
+/* !========================= container  ================================== */
+@media screen and (min-width: 1399.98px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media screen and (max-width: 1399.98px) {
+    .container {
+        max-width: 1140px
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .container {
+        max-width: 540px
+    }
+
+}
+
+@media screen and (max-width: 575.98px) {
+    .container {
+        padding-inline: 16px;
+    }
+}
+
+/* !========================= navbar  ================================== */
+@media screen and (max-width:1199.98px) {
+    .menu_icon {
+        display: block;
+    }
+
+    nav .container ul {
+        transform: translatex(100%);
+        background-color: var(--color-light);
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        height: 100%;
+        flex-direction: column;
+        width: 300px;
+        padding-inline: 20px;
+        gap: 0;
+    }
+
+    nav .container ul li {
+        margin-block: 20px;
+    }
+
+    nav ul li.close_icon {
+        display: block;
+        text-align: right;
+    }
+
+    nav ul li.close_icon a {
+        font-size: 26px;
+    }
+
+    nav .mode {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+}
+
+/* !========================= home  ================================== */
+@media screen and (min-width: 1199.98px) {
+    #home {
+        min-height: 100vh;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #home .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #home .container>* {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #home .container .header_content {
+        margin-top: 35px;
+    }
+
+    #home .container .header_content .btn_main {
+        --border-radius: 100vh 100vh 100vh 100vh;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    #home .container .header_content .buttons_group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+/* !========================= chefs  ================================== */
+@media screen and (max-width: 992px) {
+    #chefs .container .chefs_container .chef_card {
+        width: 45%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    #chefs .container .chefs_container .chef_card {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+}
+
+@media screen and(max-width:575.98px) {
+    #chefs .container .chefs_container .chef_card {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+}
+
+/* !========================= gallery  ================================== */
+
+@media screen and (max-width: 992px) {
+
+    .container_ {
+        columns: 2;
+        column-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    .container_ {
+        columns: 1;
+        column-gap: 10px;
+
+    }
+}
+
+@media screen and(max-width:575.98px) {
+    .container_ {
+
+        columns: 1;
+        column-gap: 10px;
+
+    }
+
+}
+
+/* !========================= contact  ================================== */
+@media screen and (max-width: 992px) {
+    #contact .container .contact_container .contact_info_div .data {
+        width: 98%;
+    }
+
+}
+
+@media screen and (max-width:772px) {
+    #contact .container .contact_container .contact_info_div .data {
+        width: 100%;
+    }
+
+    #contact .container .contact_container .form_div form .name_div {
+        width: 98%;
+    }
+
+    #contact .container .contact_container .form_div form .email_div {
+        width: 98%;
+    }
+
+}
+
+@media screen and (max-width:575.98) {
+    @media screen and (max-width:772px) {
+        #contact .container .contact_container .contact_info_div .data {
+            width: 100%;
+        }
+
+        #contact .container .contact_container .form_div form .name_div {
+            width: 98%;
+        }
+
+        #contact .container .contact_container .form_div form .email_div {
+            width: 98%;
+        }
+
+    }
+
+}
+
+/* !========================= footer  ================================== */
+
+@media screen and (max-width: 992px) {
+    #footer .container .left_div {
+        width: 98%;
+        margin-bottom: 20px !important;
+        text-align: start;
+
+    }
+
+    #footer .container .left_div img {
+        margin-inline: auto;
+        margin-top: 4px;
+    }
+
+
+    #footer .container .right_div {
+        width: 98%;
+        margin-bottom: 20px !important;
+    }
+
+    #footer .container .middle_div {
+        width: 98%;
+        margin-bottom: 20px !important;
+    }
+
+}
